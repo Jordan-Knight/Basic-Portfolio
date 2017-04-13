@@ -107,8 +107,8 @@ nav{
 }
 
 #banner > nav > a:nth-child(2) > span{
-	border-right: 1px solid #777;
-	border-left: 1px solid #777;
+	border-right: 1px solid #777777;
+	border-left: 1px solid #777777;
 }
 
 .panel-bio{
@@ -209,6 +209,8 @@ footer{
 	line-height: 1.5;
 	font-size: 14px;
 	margin: 10px 0 5px 0;
+	border-radius: 5px;
+	border-color: #f1f0ed;
 }
 
 .message{
@@ -219,6 +221,8 @@ footer{
 	line-height: 1;
 	font-size: 14px;
 	margin: 10px 0 5px 0;
+	border-color: #f1f0ed;
+	border-radius: 5px;
 }
 .button{
     float: left;
@@ -236,6 +240,7 @@ footer{
 
 .footer-text{
 	line-height: 100px;
+	color: #777;
 }
 
 .navItem:hover {
